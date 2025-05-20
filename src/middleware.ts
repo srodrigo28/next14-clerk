@@ -1,17 +1,3 @@
-#### Auth Clerk Next 14
-
-* link doc
-```
-https://clerk.com/docs/quickstarts/nextjs
-```
-
-* dependência
-```
-npm install @clerk/nextjs
-```
-
-* criar arquivo no /src/middleware.ts
-```
 import { clerkMiddleware } from '@clerk/nextjs/server'
 
 export default clerkMiddleware()
@@ -24,4 +10,3 @@ export const config = {
     '/(api|trpc)(.*)',
   ],
 }
-```
