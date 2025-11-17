@@ -1,0 +1,1 @@
+npm i @clerk/nextjs framer-motion @heroicons/react @tailwindcss/forms clsx tailwind-merge
